@@ -1,0 +1,18 @@
+oot =true
+
+# 用于指定配置的应用范围，*表示对所有文件应用
+[*]
+# 指定文件编码格式
+charset = utf-8
+
+# 设置换行符
+end_of_line=lf
+
+# 以换行符结尾
+insert_final_newline=true
+
+# 使用空格缩进
+indent_style=space
+
+# 缩进的长度
+indent_size =2
