@@ -1,8 +1,8 @@
-import globals from 'globals'
 import pluginJs from '@eslint/js'
-import tseslint from 'typescript-eslint'
-import pluginVue from 'eslint-plugin-vue'
 import eslintConfigPrettier from 'eslint-config-prettier'
+import pluginVue from 'eslint-plugin-vue'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
 export default [
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
@@ -44,7 +44,7 @@ export default [
           registeredComponentsOnly: false
         }
       ],
-
+      '@typescript-eslint/no-explicit-any': 'off',
       'vue/order-in-components': 'off',
       'vue/html-self-closing': 'off',
       'vue/html-indent': 'off',
